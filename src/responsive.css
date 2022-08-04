@@ -1,0 +1,92 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 7%;
+    }
+}
+
+@media (max-width: 991px) {
+    nav {
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 0.2fr;
+    }
+    .container {
+        padding: 0 10%;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .bio {
+        grid-template-columns: 1fr 1fr;
+        padding: 3em 0 2em 1em;
+    }
+    .edit-bio-form input {
+        width: 68%;
+    }
+    .profile-info button {
+        width: 4.5em;
+    }
+    #no-pics {
+        left: 40%;
+        top: 40%;
+    }
+    #delete-photos {
+        right: 1.5em;
+    }
+    .add-photo-button {
+        right: 4.2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    nav {
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-gap: 4em;
+        align-items: center;
+        z-index: 2;
+    }
+    .nav-links {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        height: 3.3em;
+        border-top: 0.1em solid #dbdbdb;
+        border-bottom: 0.1em solid #dbdbdb;
+    }
+    .search {
+        width: 10em;
+    }
+    .largeScreen {
+        display: none;
+    }
+    .profile-photo {
+        width: 6em;
+        height: 6em;
+        margin-top: 3em;
+        margin-right: 2em;
+    }
+    .profile-info .name {
+        font-size: 1.3em;
+    }
+    .profile-info .about {
+        font-size: 1.2em;
+        color: #545454;
+        margin-top: 0.5em;
+    }
+    .profile-info button {
+        font-size: 12px;
+    }
+    .edit-bio-form input {
+        width: 76%;
+    }
+    .bio {
+        align-items: center;
+        margin-top: 3em;
+    }
+}
