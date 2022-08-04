@@ -24,10 +24,6 @@
     .profile-info button {
         width: 4.5em;
     }
-    #no-pics {
-        left: 40%;
-        top: 40%;
-    }
     #delete-photos {
         right: 1.5em;
     }
@@ -43,7 +39,6 @@
     }
     nav {
         grid-template-columns: 1.5fr 1.5fr;
-        grid-gap: 4em;
         align-items: center;
         z-index: 2;
     }
@@ -68,14 +63,12 @@
     .profile-photo {
         width: 6em;
         height: 6em;
-        margin-top: 3em;
-        margin-right: 2em;
     }
     .profile-info .name {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .profile-info .about {
-        font-size: 1.2em;
+        font-size: 0.8em;
         color: #545454;
         margin-top: 0.5em;
     }
@@ -88,5 +81,13 @@
     .bio {
         align-items: center;
         margin-top: 3em;
+    }
+    .add-photo-button img {
+        width: 8px;
+        height: auto;
+    }
+    .modal {
+        top: 40%;
+        left: 20%;
     }
 }

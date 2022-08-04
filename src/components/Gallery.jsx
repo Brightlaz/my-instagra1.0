@@ -3,7 +3,7 @@ import getPhotoUrl from 'get-photo-url';
 import database from '../dexie';
 import animation from '../assets/Ellipsis-1s-31px.svg';
 import { useLiveQuery } from 'dexie-react-hooks';
-import minus from '../assets/icons/square-minus.svg';
+import trash from '../assets/icons/trash-can.svg';
 import plus from '../assets/icons/square-plus.svg';
 import Modal from './Modal'
 
@@ -31,7 +31,7 @@ const Gallery = () => {
                              {modal && <Modal
                             click={()=>setModal(false)}
                             />}
-                            <i className="add-photo-button" id='delete-photos'><img src={minus} alt="" /></i>
+                            <i className="add-photo-button" id='delete-photos'><img src={trash} alt="" /></i>
                         </div>
 
 
@@ -49,9 +49,9 @@ const Gallery = () => {
             
             {allPhoto?.length>0 && deleteAll}
             {modal && <div className='blur'></div>}
+            {allPhoto?.length<=0 && <div id='no-pics'>No photos available <br /> Add custom photos</div>}
             <section className="gallery">
                 {!allPhoto && loadingAnimation}
-                {allPhoto?.length<=0 && <div id='no-pics'>No photos available <br /> Add custom photos</div>}
                 {allPhoto?.map(photo => {
                     return(
                         <div className="item" key={photo.key}>
