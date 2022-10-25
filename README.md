@@ -5,7 +5,7 @@ A instagram profile page clone
 
 * [Description](#Description)
 * [Function](#Functions)
-* [Live_site](#Link)
+* [Live_site](#Link to live site)
 * [Dependencies](#Dependencies)
 
 ## Description
@@ -20,7 +20,7 @@ It is a progressive web app built using only reactjs. It is can be downloaded an
     - Changes are synced to your device
 
 ### Link to live site
-[Click] (https://bright-instagram-clone.netlify.app)
+*[Live site](https://bright-instagram-clone.netlify.app)*
 
 ## Dependencies
 [Can be found in the package.json file](package.json)
