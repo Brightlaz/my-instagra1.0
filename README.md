@@ -1,5 +1,5 @@
 # My instagram clone
-A instagram profile page clone
+A Progressive web app
 
 ## Table of Contents
 
@@ -9,7 +9,7 @@ A instagram profile page clone
 * [Dependencies](#Dependencies)
 
 ## Description
-It is a progressive web app built using only reactjs. It is can be downloaded and it works offline. It can be viewed from any device.
+My Instagram clone is a progressive web app built using reactjs, DexieJS and IndexedDb for browser storage. It can be downloaded, it works offline and my user's progress is saved. 
 
 ## Functions
     - You can add photos of you choice
